@@ -1,0 +1,135 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Date Time Selection Section */
+
+  .activity-summary {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .activity-summary h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .datetime-input {
+    margin: 10px 0;
+  }
+  
+  .datetime-input label {
+    font-size: 1.1rem;
+    margin-right: 10px;
+  }
+  
+  .datetime-input input {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Task Activity Section */
+.tasks {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  color: #d8c8b9;
+}
+
+
+/* Task Box */
+.task {
+  background-color: #73624d;
+  color: #e2dedb;
+  border: 1px solid #d8c8b9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.task h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.task p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #d8c8b9;
+}
+
+.task ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task ul li {
+  font-size: 1rem;
+  padding: 2px 0;
+}
+
+  /* Tag Statistics Section */
+  .tag-statistics {
+    background-color: #73624d;
+    color: #d8c8b9;
+    border: 1px solid #d8c8b9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .tag-statistics h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e2dedb;
+  }
+
+  .tag-statistics p {
+    margin-bottom: 20px;
+    color: #d8c8b9;
+  }
+  
+  
+  .tag-statistic {
+    margin-bottom: 20px;
+  }
+
+  .tag-statistic p {
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .tasks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+    .task {
+      width: 48%;
+    }
+  
+    .tag-statistics {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
